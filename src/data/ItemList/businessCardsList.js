@@ -28,8 +28,8 @@ const businessCardsList = [
         image_1: pvcCard_1,
         price:100
 
-    }
-
+    },
+    
 ]
 
 export default businessCardsList
