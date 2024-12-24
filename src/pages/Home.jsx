@@ -7,17 +7,18 @@ import AllCategories from "../components/Home/AllCategories";
 import Blogs from "../components/Home/Blogs";
 import WFHBanner from "../components/Home/WFHBanner";
 import Info from "../components/Home/Info";
+import MoreProducts from "../components/Home/MoreProducts";
 
 const Home = () => {
   return (
     <div className="bg-[#]">
       <Links />
-      <div className="">
+      <div className="mx-auto">
         <Banner />
         <ItemsSlider />
         <ShopByNeeds />
         <AllCategories />
-
+<MoreProducts/>
         <Blogs />
         <WFHBanner />
         <Info />

@@ -47,7 +47,7 @@ const ProductCard = ({ id, title, subTitle, price, image, width, height }) => {
         },
         "@media (min-width: 1024px)": {
           width: width || 300,
-          height:   450,
+          height: 450,
         },
       }}
     >
@@ -55,7 +55,6 @@ const ProductCard = ({ id, title, subTitle, price, image, width, height }) => {
         <AspectRatio
           sx={{
             aspectRatio: "16/9", // Maintain aspect ratio
-            // width: "100%", // Full width for responsiveness
           }}
         >
           <img
