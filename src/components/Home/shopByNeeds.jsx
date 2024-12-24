@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
-import { bannerData } from '../../data/banner'
+
 import ItemCard from '../Cards/ItemCard'
 import { FaChevronLeft, FaChevronRight } from 'react-icons/fa'
+import bannerData from '../../data/banner';
 
 const ShopByNeeds = () => {
   // Responsive card dimensions
@@ -45,7 +46,7 @@ const ShopByNeeds = () => {
         </button>
 
         {/* Cards Container */}
-        <div className="cards-container overflow-x-hidden scroll-smooth">
+        <div className="cards-container overflow-hidden scroll-smooth">
           <div className="flex gap-3 sm:gap-4 lg:gap-4 px-2 sm:px-4 h-auto">
             {bannerData.map((item) => (
               <div key={item.id} className="flex-shrink-0">

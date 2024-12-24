@@ -70,8 +70,8 @@ const Info = () => {
           <a href="mailto:info@sayandigital.com">sayan177123@gmail.com</a> or
           call us at +91 77976 07126 to get started.
         </p>
-        <a href="mailto:sayan177123@gmail.com">
-          <button className="bg-[#4C4C4C] text-white py-2 px-4 rounded-md hover:bg-[#333333]">
+        <a href="mailto:sayan177123@gmail.com" className="">
+          <button className="bg-[#4C4C4C] text-white mt-4 py-2 px-4 rounded-md hover:bg-[#333333]">
             Get Started
           </button>
         </a>

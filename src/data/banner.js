@@ -3,7 +3,7 @@ import banner3 from '../assets/banners/banner3.png'
 import banner4 from '../assets/banners/banner4.png'
 import banner5 from '../assets/banners/banner5.png'
 
-export const bannerData = [
+ const bannerData = [
     {
         id: 1,
         image: banner2
@@ -22,3 +22,5 @@ export const bannerData = [
     },
 
 ]
+
+export default bannerData
