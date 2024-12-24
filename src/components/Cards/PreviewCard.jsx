@@ -38,8 +38,8 @@ export default function PreviewCard({image,title,id,subTitle}) {
 
       {/* Add to Cart Button */}
       <CardOverflow>
-        <Button variant="solid" color="primary" size="lg">
-          View
+        <Button variant="solid" color="warning" size="lg">
+          Not Available For Now
         </Button>
       </CardOverflow>
     </Card>
