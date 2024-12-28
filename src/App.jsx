@@ -31,6 +31,22 @@ const App = () => {
   const location = useLocation();
   const [footerText, setFooterText] = useState("Go Back to Home"); // Default footer text
 
+  const setZoomLevel = () => {
+    if (window.innerWidth > 768) {
+      document.body.style.zoom = '80%';
+    } else {
+      document.body.style.zoom = '100%';
+    }
+  };
+
+  useEffect(() => {
+    setZoomLevel();
+    window.addEventListener('resize', setZoomLevel);
+    return () => {
+      window.removeEventListener('resize', setZoomLevel);
+    };
+  }, []);
+
   useEffect(() => {
     const updateFooterText = () => {
       switch (location.pathname) {

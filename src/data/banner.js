@@ -6,19 +6,19 @@ import banner5 from '../assets/banners/banner5.png'
  const bannerData = [
     {
         id: 1,
-        image: banner2
+        image: banner2,
+        to: "letter-head"
     },
     {
         id: 2,
-        image: banner3
+        image: banner3,
+        to:"standees"
     },
-    {
-        id: 3,
-        image: banner4
-    },
+
     {
         id: 4,
-        image: banner5
+        image: banner5,
+        to:"corporate-gifts"
     },
 
 ]

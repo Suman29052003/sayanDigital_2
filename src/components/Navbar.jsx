@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import storeLogo from "../assets/logos/store_logo.png";
 import hamIcon from "../assets/icons/hamburger.png";
-import crossIcon from '../assets/icons/cross.png';
+import crossIcon from "../assets/icons/cross.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -19,26 +19,6 @@ const Navbar = () => {
             className="w-full object-contain cursor-pointer"
           />
         </Link>
-
-        {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center gap-8">
-          {/* Other navigation items can go here */}
-        </div>
-
-        {/* Mobile Menu Button */}
-        <button
-          className="md:hidden"
-          onClick={() => setIsMenuOpen(!isMenuOpen)}
-        >
-          <img src={isMenuOpen ? crossIcon : hamIcon} alt="menu" className="w-6 h-6" />
-        </button>
-
-        {/* Mobile Menu */}
-        {isMenuOpen && (
-          <div className="absolute top-full left-0 w-full bg-white shadow-lg md:hidden">
-            {/* Mobile navigation items can go here */}
-          </div>
-        )}
       </div>
     </nav>
   );

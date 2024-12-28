@@ -10,13 +10,13 @@ const AllCategories = () => {
       <div className="flex items-center justify-center gap-2 sm:gap-4">
         <div className="h-[1px] bg-gray-300 flex-grow"></div>
         <h2 className="text-xl sm:text-2xl lg:text-3xl font-bold whitespace-nowrap text-[#A2A2A2]">
-          Browse Categories
+          Customized Categories
         </h2>
         <div className="h-[1px] bg-gray-300 flex-grow"></div>
       </div>
       
       {/* Grid container */}
-      <div className="w-full grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-7 gap-2 sm:m-0 mx-auto ">
+      <div className="w-full grid grid-cols-3 sm:grid-cols-4 lg:grid-cols-7 gap-6  sm:m-0 mx-auto ">
         {allCategories.map((item) => (
           <Link to={`/product/${item.route}`} key={item.id} className='flex items-center justify-center m-2 sm:m-0'>
           <ItemCard 
