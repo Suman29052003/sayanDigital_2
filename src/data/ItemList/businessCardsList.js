@@ -23,7 +23,7 @@ const businessCardsList = [
     },
     {
         id: 3,
-        title: 'PVC Business Cards',
+        title: 'Laminate Board Business Cards',
         subTitle: 'Durable PVC business cards for a modern and premium look!',
         image_1: pvcCard_1,
         price:800

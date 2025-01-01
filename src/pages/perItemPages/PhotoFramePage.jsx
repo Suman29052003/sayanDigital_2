@@ -21,7 +21,7 @@ const PhotoFramePage = () => {
           title={card.title}
           subTitle={card.subTitle}
           price={`${card.price}`}
-          image={card.image_1}
+          image={card.image}
           className="transition-transform transform hover:scale-105 bg-white shadow-lg rounded-md overflow-hidden"
         />
       ))}

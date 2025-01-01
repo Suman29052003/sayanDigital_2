@@ -13,63 +13,63 @@ const tshirtList = [
     id: 1, 
     title: "Custom T-shirt", 
     subTitle: "High-quality, customizable T-shirt for all occasions.", 
-    price: "499", 
+    price: "299", 
     image: tshirt_1
   },
   { 
     id: 2, 
     title: "Custom T-shirt", 
     subTitle: "High-quality, customizable T-shirt for all occasions.", 
-    price: "599", 
+    price: "199", 
     image: tshirt_2
   },
   { 
     id: 3, 
     title: "Custom T-shirt", 
     subTitle: "High-quality, customizable T-shirt for all occasions.", 
-    price: "549", 
+    price: "199", 
     image: tshirt_3
   },
   { 
     id: 4, 
     title: "Custom T-shirt", 
     subTitle: "High-quality, customizable T-shirt for all occasions.", 
-    price: "599", 
+    price: "349", 
     image: tshirt_4
   },
   { 
     id: 5, 
     title: "Custom T-shirt", 
     subTitle: "High-quality, customizable T-shirt for all occasions.", 
-    price: "499", 
+    price: "299", 
     image: tshirt_5
   },
   { 
     id: 6, 
     title: "Custom T-shirt", 
     subTitle: "High-quality, customizable T-shirt for all occasions.", 
-    price: "649", 
+    price: "299", 
     image: tshirt_6
   },
   { 
     id: 7, 
     title: "Custom T-shirt", 
     subTitle: "High-quality, customizable T-shirt for all occasions.", 
-    price: "699", 
+    price: "199", 
     image: tshirt_7
   },
   { 
     id: 8, 
     title: "Custom T-shirt", 
     subTitle: "High-quality, customizable T-shirt for all occasions.", 
-    price: "749", 
+    price: "299", 
     image: tshirt_8
   },
   { 
     id: 9, 
     title: "Custom T-shirt", 
     subTitle: "High-quality, customizable T-shirt for all occasions.", 
-    price: "599", 
+    price: "199", 
     image: tshirt_9
   },
 ];

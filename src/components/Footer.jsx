@@ -45,15 +45,7 @@ const Footer = (props) => {
           >
             <img src={facebookIcon} alt="facebook icon" />
           </a>
-          {/* Instagram */}
-          <a
-            href="https://www.instagram.com/sayan177123/"
-            target="_blank"
-            rel="noreferrer"
-            className="w-[28px] h-auto"
-          >
-            <img src={instagramIcon} alt="instagram icon" />
-          </a>
+
           {/* YouTube */}
           <a
             href="https://www.youtube.com/@sayandigital362"
