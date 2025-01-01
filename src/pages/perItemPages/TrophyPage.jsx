@@ -20,7 +20,7 @@ const TrophyPage = () => {
           id={card.id}
           title={card.title}
           subTitle={card.subTitle}
-          price={`${card.price}`}
+          price={`From -${card.price}`}
           image={card.image}
           className="transition-transform transform hover:scale-105 bg-white shadow-lg rounded-md overflow-hidden"
         />

@@ -26,7 +26,7 @@ const businessCardsList = [
         title: 'PVC Business Cards',
         subTitle: 'Durable PVC business cards for a modern and premium look!',
         image_1: pvcCard_1,
-        price:
+        price:800
 
     },
     

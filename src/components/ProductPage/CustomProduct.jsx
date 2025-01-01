@@ -57,7 +57,7 @@ const CustomProduct = ({
 
 
       <div className="_price">
-        <span className="text-2xl md:text-3xl font-bold text-[#FC7C1B]">
+        <span className="text-xl md:text-2xl font-bold text-[#525050]">
           ₹ {price}{" "}
         </span>
         <span className="text-lg md:text-xl font-medium">

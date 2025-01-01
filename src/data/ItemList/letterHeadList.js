@@ -12,32 +12,21 @@ const letterHeadList = [
         des_4:"Eco-friendly and premium paper options",
         image: letterHead_1,
 
-        price: 150 // Random price in rupees
+        price: "700 /100 piece" // Random price in rupees
     },
     {
         id: 2,
-        title: "Customized Letter Head, A4 size, Blue Theme",
+        title: "Customized Letter Head, A4 size, Single Theme",
         subTitle: "Professional A4 Letterhead with a Blue Theme for Corporate Use.",
         des_1: "Printed on high-quality, durable paper",
         des_2: "Customizable with your company name, logo, and contact details",
         des_3: "Available in A4 and letter sizes",
         des_4: "Eco-friendly and premium paper options",
-        image: letterHead_2, 
+        image:letterHead_2 , 
 
-        price: 160 // Random price in rupees
+        price: "1650 /1000 piece" // Random price in rupees
     },
-    {
-        id: 3,
-        title: "Customized Letter Head, A4 size, Green Theme",
-        subTitle: "Eco-friendly A4 Letterhead with a Green Theme for Sustainable Use.",
-        des_1: "Printed on high-quality, durable paper",
-        des_2: "Customizable with your company name, logo, and contact details",
-        des_3: "Available in A4 and letter sizes",
-        des_4: "Eco-friendly and premium paper options",
-        image: letterHead_3, 
 
-        price: 160 // Random price in rupees
-    },
 ]
 
 export default letterHeadList

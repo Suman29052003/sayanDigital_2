@@ -12,54 +12,41 @@ import aluminiumBottle from '../../assets/itemsImage/corporateGifts/customize_al
 const corporateGiftsList = [
     {
         id: 1,
-        title: "Customized Drinkware",
+        title: "Customized Drinkware (750ML)",
         subTitle: "Personalized drinkware for employees, clients, and corporate events.",
-        image: drinkware,
-        price:200
+        image: aluminiumBottle,
+        price:450
 
     },
     {
         id: 2,
-        title: "Awards and Trophies",
-        subTitle: "Elegant trophies and awards for corporate recognition.",
-        image: awards,
-        price:200
+        title: "Customized Drinkware (500ML)",
+        subTitle: "Personalized drinkware for employees, clients, and corporate events.",
+        image: aluminiumBottle,
+        price:390
 
     },
+
     {
-        id: 3,
+        id: 4,
         title: "Medals",
         subTitle: "Customized medals for corporate events and competitions.",
         image: medals,
-        price:200
+        price:"From 20"
 
     },
-    {
-        id: 4,
-        title: "Customized Calendars",
-        subTitle: "Personalized calendars to keep your brand visible year-round.",
-        image: calendar,
-        price:200
 
-    },
     {
-        id: 5,
+        id: 6,
         title: "Certificates",
         subTitle: "Customized certificates for employee appreciation and achievements.",
         image: certificates,
-        price:200
+        price:"20 /piece"
 
     },
-    {
-        id: 6,
-        title: "Customized Keychains",
-        subTitle: "Branded keychains for promotional and corporate gifting.",
-        image: keychain,
-        price:200
 
-    },
     {
-        id: 7,
+        id: 8,
         title: "Customized Company Polo Shirts",
         subTitle: "Professional polo shirts with your company branding.",
         image: poloShirt,
@@ -67,29 +54,22 @@ const corporateGiftsList = [
 
     },
     {
-        id: 8,
+        id: 9,
         title: "Customized Mousepads",
         subTitle:"Personalized mousepads for a professional touch at the workplace.",
         image: mousePad,
-        price:200
-
-    },
-    {
-        id: 9,
-        title: "ID Cards",
-        subTitle: "Professional ID cards for your employees.",
-        image: idCard,
-        price:200
+        price:150
 
     },
     {
         id: 10,
-        title: "Aluminum Customized Bottle",
-        subTitle: "Stylish aluminum bottles for hydration on the go.",
-        image: aluminiumBottle,
-        price:200
+        title: "ID Cards",
+        subTitle: "Professional ID cards for your employees.",
+        image: idCard,
+        price:35
 
     },
+
 ];
 
 

@@ -21,7 +21,7 @@ const BusinessCardPage = () => {
             id={card.id}
             title={card.title}
             subTitle={card.subTitle}
-            price={`${card.price}`}
+            price={`${card.price}/100 piece`}
             image={card.image_1}
             className="transition-transform transform hover:scale-105 bg-white shadow-lg rounded-md overflow-hidden"
           />

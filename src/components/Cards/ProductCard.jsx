@@ -94,7 +94,7 @@ const ProductCard = ({ id, title, subTitle, price, image, width, height }) => {
           sx={{
             mt: 3,
             fontWeight: "xl",
-            color: "orange",
+            color: "black",
             display: "flex",
             justifyContent: "space-between",
             fontSize: { xs: "14px", sm: "16px", lg: "18px" },

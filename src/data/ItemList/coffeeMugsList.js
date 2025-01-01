@@ -18,7 +18,7 @@ const coffeeMugsList = [
         title: 'Personalized Heart-Shaped Photo Mug',
         subTitle: 'Heart-shaped mug (325 mL). Celebrate love with your favorite images or art!',
         image_1: heartShapeMug_1,
-        price: 200
+        price: 250
 
     },
     {
@@ -26,7 +26,7 @@ const coffeeMugsList = [
         title: 'Personalized Magic Photo Mug',
         subTitle: 'Magic mug (325 mL). Watch your favorite images appear like magic when filled with a hot beverage!',
         image_1: magicMug_1,
-        price: 200
+        price: 300
 
     },
     {
@@ -34,7 +34,7 @@ const coffeeMugsList = [
         title: 'Personalized Color Photo Mug',
         subTitle: 'Color mug (325 mL). Add vibrant colors to your mornings with a custom design!',
         image_1: colorMug_1,
-        price: 200
+        price: 230
 
     }
 ];
