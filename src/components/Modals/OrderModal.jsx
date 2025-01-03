@@ -66,7 +66,7 @@ const style = {
             </IconButton>
           </Box>
           <Typography variant="body1" sx={{ mb: 2 }}>
-            Product: {orderDetails.title} | Price: ₹{orderDetails.price} | Quantity: {orderDetails.quantity}
+            Product: {orderDetails.title} | Price: ₹{orderDetails.price} 
           </Typography>
           <TextField
             fullWidth

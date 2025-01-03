@@ -11,7 +11,6 @@ const OrderButton = ({ title, price, quantity, length, width }) => {
   const orderDetails = {
     title,
     price,
-    quantity,
     length,
     width,
   };
@@ -24,7 +23,7 @@ const OrderButton = ({ title, price, quantity, length, width }) => {
       >
         <span className="text-lg md:text-2xl font-bold text-white">Buy Now</span>
       </div>
-      <OrderModal open={open} handleClose={handleClose} orderDetails={orderDetails} />
+      <OrderModal open={open} handleClose={handleClose} orderDetails={orderDetails} quantity={quantity||""} />
       <ToastContainer />
     </>
   );

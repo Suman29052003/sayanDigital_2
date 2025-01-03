@@ -39,21 +39,33 @@ const ProductInfo = ({
     }
   };
 
-  console.log("Received minQuantity in ProductInfo:", minQuantity);
-
   return (
     <div className="w-full grid grid-cols-1 md:grid-cols-2 p-4 m-2 gap-4">
       <div className="_productImage w-full h-full relative">
-        <button
-          className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-50 p-2"
-          onClick={handlePreviousImage}
-        >
-          <img
-            src={leftIcon}
-            alt="Previous"
-            className="object-cover w-[48px] h-auto"
-          />
-        </button>
+        {currentImages.length > 1 && (
+          <>
+            <button
+              className="absolute left-0 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-50 p-2"
+              onClick={handlePreviousImage}
+            >
+              <img
+                src={leftIcon}
+                alt="Previous"
+                className="object-cover w-[48px] h-auto"
+              />
+            </button>
+            <button
+              className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-50 p-2"
+              onClick={handleNextImage}
+            >
+              <img
+                src={rightIcon}
+                alt="Next"
+                className="object-cover w-[48px] h-auto"
+              />
+            </button>
+          </>
+        )}
         <div className="_border border-2 border-black w-full h-auto p-6 bg-[#F4F6FF]">
           <div className="_image max-w-[430px] max-h-[420px] m-auto">
             {currentImages.length > 0 ? (
@@ -67,19 +79,9 @@ const ProductInfo = ({
             )}
           </div>
         </div>
-        <button
-          className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-white bg-opacity-50 p-2"
-          onClick={handleNextImage}
-        >
-          <img
-            src={rightIcon}
-            alt="Next"
-            className="object-cover w-[48px] h-auto"
-          />
-        </button>
       </div>
 
-      <div className="_productDetails w-full m-auto">
+      <div className="_productDetails w-full m-auto h-full">
         {isBannersRoute ? (
           <CustomFlex />
         ) : (
@@ -87,7 +89,7 @@ const ProductInfo = ({
             title={title}
             subTitle={subTitle}
             price={price}
-            minQuantity={minQuantity} // Ensure this is passed correctly
+
           />
         )}
       </div>

@@ -12,11 +12,9 @@ const CustomProduct = ({
 }) => {
   const [originalPrice, setOriginalPrice] = useState(price);
 
-  console.log("Received minQuantity in CustomProduct:", minQuantity);
-  console.log("Received price in CustomProduct:", price);
 
   return (
-    <div className="w-full flex flex-col gap-3 p-4 md:p-6 lg:p-8">
+    <div className="w-full flex flex-col justify-around h-full gap-3 p-4 md:p-6 lg:p-8">
       <div className="_title">
         <h1 className="text-2xl md:text-3xl font-bold">{title}</h1>
       </div>
@@ -33,7 +31,7 @@ const CustomProduct = ({
           Buy in bulk and save
         </p>
       </div>
-      <OrderButton title={title} price={originalPrice} quantity={1} />
+      <OrderButton title={title} price={originalPrice}  />
     </div>
   );
 };
