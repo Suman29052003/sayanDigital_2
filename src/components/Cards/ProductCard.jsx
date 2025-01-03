@@ -35,7 +35,7 @@ const ProductCard = ({ id, title, subTitle, price, image, width, height,minQuant
       sx={{
         width: width || "100%", // Full width by default
         maxWidth: 300, // Constrain max width for larger screens
-        height: "auto", // Allow auto height
+        height: height||"auto", // Allow auto height
         display: "flex",
         flexDirection: "column",
         boxShadow: "lg",
