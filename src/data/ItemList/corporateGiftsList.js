@@ -6,7 +6,7 @@ import certificates from '../../assets/itemsImage/corporateGifts/custom-certific
 import keychain from '../../assets/itemsImage/corporateGifts/custom-key-chain.png'
 import poloShirt from '../../assets/itemsImage/corporateGifts/customize-polo-shirt.png'
 import mousePad from '../../assets/itemsImage/corporateGifts/custom-mouse-pad.png'
-import idCard from '../../assets/itemsImage/corporateGifts/custom-id-card.png'
+
 import aluminiumBottle from '../../assets/itemsImage/corporateGifts/customize_aluminium_bottle_1.png'
 
 const corporateGiftsList = [
@@ -15,7 +15,8 @@ const corporateGiftsList = [
         title: "Customized Drinkware (750ML)",
         subTitle: "Personalized drinkware for employees, clients, and corporate events.",
         image: aluminiumBottle,
-        price:450
+        price:450,
+        minQuantity: 1
 
     },
     {
@@ -23,7 +24,8 @@ const corporateGiftsList = [
         title: "Customized Drinkware (500ML)",
         subTitle: "Personalized drinkware for employees, clients, and corporate events.",
         image: aluminiumBottle,
-        price:390
+        price:390,
+        minQuantity: 1
 
     },
 
@@ -32,7 +34,8 @@ const corporateGiftsList = [
         title: "Medals",
         subTitle: "Customized medals for corporate events and competitions.",
         image: medals,
-        price:"From 20"
+        price:20,
+        minQuantity: 1
 
     },
 
@@ -41,7 +44,8 @@ const corporateGiftsList = [
         title: "Certificates",
         subTitle: "Customized certificates for employee appreciation and achievements.",
         image: certificates,
-        price:"20 /piece"
+        price:20,
+        minQuantity: 100
 
     },
 
@@ -50,7 +54,8 @@ const corporateGiftsList = [
         title: "Customized Company Polo Shirts",
         subTitle: "Professional polo shirts with your company branding.",
         image: poloShirt,
-        price:200
+        price:200,
+        minQuantity: 1
 
     },
     {
@@ -58,17 +63,11 @@ const corporateGiftsList = [
         title: "Customized Mousepads",
         subTitle:"Personalized mousepads for a professional touch at the workplace.",
         image: mousePad,
-        price:150
+        price:150,
+        minQuantity: 1
 
     },
-    {
-        id: 10,
-        title: "ID Cards",
-        subTitle: "Professional ID cards for your employees.",
-        image: idCard,
-        price:35
 
-    },
 
 ];
 

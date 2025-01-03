@@ -16,7 +16,7 @@ const ProductInfo = ({
   subTitle,
   images = [], // Default to an empty array
   price,
-
+  minQuantity, // Ensure this is received
 }) => {
   const { route } = useParams();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -39,6 +39,8 @@ const ProductInfo = ({
     }
   };
 
+  console.log("Received minQuantity in ProductInfo:", minQuantity);
+
   return (
     <div className="w-full grid grid-cols-1 md:grid-cols-2 p-4 m-2 gap-4">
       <div className="_productImage w-full h-full relative">
@@ -54,15 +56,15 @@ const ProductInfo = ({
         </button>
         <div className="_border border-2 border-black w-full h-auto p-6 bg-[#F4F6FF]">
           <div className="_image max-w-[430px] max-h-[420px] m-auto">
-          {currentImages.length > 0 ? (
-  <img
-    src={currentImages[currentImageIndex]}
-    alt="Product"
-    className="object-contain h-[415px] w-[425px]"
-  />
-) : (
-  <p className="text-center">No images available</p>
-)}
+            {currentImages.length > 0 ? (
+              <img
+                src={currentImages[currentImageIndex]}
+                alt="Product"
+                className="object-contain h-[415px] w-[425px]"
+              />
+            ) : (
+              <p className="text-center">No images available</p>
+            )}
           </div>
         </div>
         <button
@@ -85,7 +87,7 @@ const ProductInfo = ({
             title={title}
             subTitle={subTitle}
             price={price}
-     
+            minQuantity={minQuantity} // Ensure this is passed correctly
           />
         )}
       </div>

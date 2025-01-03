@@ -16,6 +16,7 @@ import tshirt from "../assets/images/tshirt.png";
 // import businessCard from '../assets/stationery/business-card.png'
 import letterHead from '../assets/stationery/letter-head.png'
 import envelope from '../assets/stationery/envelope.png'
+import idCard from '../assets/images/idCard.png'
 
 export const allCategories = [
   {
@@ -109,6 +110,12 @@ export const allCategories = [
     image: envelope,
     route: "invitation-card",
   },
+  {
+    id: 16,
+    title: "Id Cards",
+    image:idCard,
+    route: "id-cards",
+  }
 ];
 
 export default allCategories;

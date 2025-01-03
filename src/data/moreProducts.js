@@ -6,6 +6,9 @@ import led_spotify_plaque from '../assets/products/led_spotify_plaque.png';
 import mirror_frame_circle from '../assets/products/mirror_frame_circle.png';
 import rotating_lamp_4 from '../assets/products/rotating_lamp_4.png';
 import rotating_lamp_5 from '../assets/products/rotating_lamp_5.png';
+import happy_birthday_frame from '../assets/products/happy_birthday_frame.jpeg'
+import customized_cushion from '../assets/products/customized_cushion.jpeg'
+import washable_vinyl_frame from '../assets/products/washable_vinyl_frame.jpeg'
 
 const products = [
   {
@@ -63,6 +66,30 @@ const products = [
     subTitle: 'Elegant rotating lamp with space for 5 cherished memories.',
     image_1: rotating_lamp_5,
     price: 799,
+  },
+
+  {
+    id: 9,
+    title: 'Custom Birthday Frame (13 images)',
+    subTitle: 'Customizable frame with space for 13 cherished memories to celebrate a special birthday.',
+    image_1: happy_birthday_frame,
+    price: 1300,
+  },
+
+  {
+    id: 10,
+    title: 'Customized Cushion',
+    subTitle: 'Personalized cushion with your favorite photo or message.',
+    image_1: customized_cushion,
+    price: 449,
+  },
+
+  {
+    id: 11,
+    title: '24x36 Washable Vinyl Photo Frame',
+    subTitle: 'Large washable vinyl photo frame for a unique display.',
+    image_1: washable_vinyl_frame,
+    price: 1800,
   },
 ];
 

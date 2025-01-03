@@ -36,9 +36,10 @@ const style = {
     const [pincode, setPincode] = React.useState('');
     const [country, setCountry] = React.useState('');
     const [state, setState] = React.useState('');
-  
+    const [quantity, setQuantity] = React.useState(orderDetails.quantity); // Added quantity state
+
     const handleOrder = () => {
-      const message = `Hello!\n\nI would like to place an order for the following product:\n\n*Product Title:* ${orderDetails.title}\n*Price:* ₹${orderDetails.price}\n*Quantity:* ${orderDetails.quantity}${
+      const message = `Hello!\n\nI would like to place an order for the following product:\n\n*Product Title:* ${orderDetails.title}\n*Price:* ₹${orderDetails.price}\n*Quantity:* ${quantity}${
         orderDetails.length ? `\n*Length:* ${orderDetails.length} ft` : ""
       }${
         orderDetails.width ? `\n*Width:* ${orderDetails.width} ft` : ""
@@ -115,7 +116,7 @@ const style = {
             value={pincode}
             onChange={(e) => setPincode(e.target.value)}
           />
-             <TextField
+          <TextField
             fullWidth
             margin="normal"
             label="State"
@@ -130,6 +131,14 @@ const style = {
             variant="outlined"
             value={country}
             onChange={(e) => setCountry(e.target.value)}
+          />
+          <TextField // Added quantity field
+            fullWidth
+            margin="normal"
+            label="Quantity"
+            variant="outlined"
+            value={quantity}
+            onChange={(e) => setQuantity(e.target.value)}
           />
        
           <Button

@@ -10,36 +10,40 @@ const tilesList = [
       title: "6x8 Tile", 
       subTitle: "Perfect for small spaces and creative designs.", 
       price: "260", 
-      image: tile_4x4 
+      image: tile_4x4,
+      minQuantity: 1
     },
     { 
       id: 2, 
       title: "8x10 Tile", 
       subTitle: "Ideal for medium-sized layouts with versatility.", 
       price: "320", 
-      image: tile_6x6 
+      image: tile_6x6,
+      minQuantity: 1
     },
     { 
       id: 3, 
       title: "8x12 Tile", 
       subTitle: "Suitable for decorative and functional purposes.", 
       price: "450", 
-      image: tile_8x8 
+      image: tile_8x8,
+      minQuantity: 1
     },
     { 
       id: 4, 
       title: "8x8 Stone", 
       subTitle: "Suitable for decorative and functional purposes.", 
       price: "499", 
-      image: tile_8x8 
+      image: tile_8x8,
+      minQuantity: 1
     },
     { 
       id: 5, 
       title: "6x8 Stone", 
       subTitle: "Suitable for decorative and functional purposes.", 
       price: "449", 
-      image: tile_8x8 
+      image: tile_8x8,
+      minQuantity: 1
     },
   ];
-  
   export default tilesList

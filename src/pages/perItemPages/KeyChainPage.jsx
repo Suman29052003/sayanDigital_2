@@ -23,6 +23,7 @@ const KeyChainPage = () => {
               price={`${card.price}`}
               image={card.image}
               className="transition-transform transform hover:scale-105 bg-white shadow-lg rounded-md overflow-hidden"
+              minQuantity={card.minQuantity}
             />
           ))}
         </div>

@@ -9,7 +9,7 @@ import Typography from "@mui/joy/Typography";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import { useNavigate } from "react-router-dom";
 
-const ProductCard = ({ id, title, subTitle, price, image, width, height }) => {
+const ProductCard = ({ id, title, subTitle, price, image, width, height,minQuantity }) => {
   const truncateTitle = (subTitle) => {
     return subTitle.length > 40 ? subTitle.slice(0, 40) + "..." : subTitle;
   };
@@ -17,12 +17,14 @@ const ProductCard = ({ id, title, subTitle, price, image, width, height }) => {
   const navigate = useNavigate();
 
   const onBuy = () => {
+    console.log("Navigating with minQuantity:", minQuantity);
     navigate("/order-product", {
       state: {
         title,
         subTitle,
         images: [image],
         price,
+        minQuantity
       },
     });
   };
@@ -33,7 +35,7 @@ const ProductCard = ({ id, title, subTitle, price, image, width, height }) => {
       sx={{
         width: width || "100%", // Full width by default
         maxWidth: 300, // Constrain max width for larger screens
-        height: height || "auto", // Allow auto height
+        height: "auto", // Allow auto height
         display: "flex",
         flexDirection: "column",
         boxShadow: "lg",

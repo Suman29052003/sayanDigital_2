@@ -8,14 +8,16 @@ const standeeList = [
         title: '3x6 Custom Standee',
         subTitle: 'Custom 3x6 standee. Display your brand or message with an eye-catching, tall standee!',
         image: standee_2x6,
-        price:1500
+        price:1500,
+        minQuantity:1
     },
     {
         id: 2,
         title: '2.5x6 Custom Standee',
         subTitle: 'Custom 2x5 standee. Compact and impactful, perfect for exhibitions and events!',
         image: standee_2x5,
-        price:1300
+        price:1300,
+        minQuantity:1
 
     },
 

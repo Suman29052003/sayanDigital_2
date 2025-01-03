@@ -22,6 +22,7 @@ const CalenderPage = () => {
           subTitle={card.subTitle}
           price={`${card.price}`}
           image={card.image_1}
+          minQuantity={card.minQuantity}
           className="transition-transform transform hover:scale-105 bg-white shadow-lg rounded-md overflow-hidden"
         />
       ))}

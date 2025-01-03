@@ -13,64 +13,73 @@ const tshirtList = [
     id: 1, 
     title: "Custom T-shirt", 
     subTitle: "High-quality, customizable T-shirt for all occasions.", 
-    price: "299", 
-    image: tshirt_1
+    price: 299, 
+    image: tshirt_1,
+    minQuantity: 1
   },
   { 
     id: 2, 
     title: "Custom T-shirt", 
     subTitle: "High-quality, customizable T-shirt for all occasions.", 
-    price: "199", 
-    image: tshirt_2
+    price: 199, 
+    image: tshirt_2,
+    minQuantity: 1
   },
   { 
     id: 3, 
     title: "Custom T-shirt", 
     subTitle: "High-quality, customizable T-shirt for all occasions.", 
-    price: "199", 
-    image: tshirt_3
+    price: 199, 
+    image: tshirt_3,
+    minQuantity: 1
   },
   { 
     id: 4, 
     title: "Custom T-shirt", 
     subTitle: "High-quality, customizable T-shirt for all occasions.", 
-    price: "349", 
-    image: tshirt_4
+    price: 349, 
+    image: tshirt_4,
+    minQuantity: 1
   },
   { 
     id: 5, 
     title: "Custom T-shirt", 
     subTitle: "High-quality, customizable T-shirt for all occasions.", 
-    price: "299", 
-    image: tshirt_5
+    price: 299, 
+    image: tshirt_5,
+    minQuantity: 1
   },
   { 
     id: 6, 
     title: "Custom T-shirt", 
     subTitle: "High-quality, customizable T-shirt for all occasions.", 
-    price: "299", 
-    image: tshirt_6
+    price: 299, 
+    image: tshirt_6,
+    minQuantity: 1
   },
   { 
     id: 7, 
     title: "Custom T-shirt", 
     subTitle: "High-quality, customizable T-shirt for all occasions.", 
-    price: "199", 
-    image: tshirt_7
+    price: 199, 
+    image: tshirt_7,
+    minQuantity: 1
   },
   { 
     id: 8, 
     title: "Custom T-shirt", 
     subTitle: "High-quality, customizable T-shirt for all occasions.", 
-    price: "299", 
-    image: tshirt_8
+    price: 299, 
+    image: tshirt_8,
+    minQuantity: 1
   },
   { 
     id: 9, 
     title: "Custom T-shirt", 
     subTitle: "High-quality, customizable T-shirt for all occasions.", 
-    price: "199", 
-    image: tshirt_9
+    price: 199, 
+    image: tshirt_9,
+    minQuantity: 1
   },
 ];
 

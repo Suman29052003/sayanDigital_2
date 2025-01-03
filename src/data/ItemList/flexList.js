@@ -11,7 +11,7 @@ const flexList = [
         promo_1: "Durable and weather-resistant material",
         promo_2: "Customizable with your own design or logo",
         promo_3: "Available in various sizes (2x3 ft, 4x6 ft, 5x10 ft)",
-        price: "₹ 500.00",
+        price: 500,
         image_1: banner_1,
         image_2: banner_2,
         image_3: banner_3,

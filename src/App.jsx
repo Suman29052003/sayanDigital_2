@@ -25,7 +25,7 @@ import TilesPage from "./pages/perItemPages/TilesPage";
 import TShirtPage from "./pages/perItemPages/TShirtPage";
 import LetterHeadPage from "./pages/perItemPages/LetterHeadPage";
 import InvitationCardPage from "./pages/perItemPages/InvitationCardPage";
-
+import IDCardPage from "./pages/perItemPages/IDCardPage";
 
 const App = () => {
   const location = useLocation();
@@ -33,17 +33,17 @@ const App = () => {
 
   const setZoomLevel = () => {
     if (window.innerWidth > 768) {
-      document.body.style.zoom = '80%';
+      document.body.style.zoom = "80%";
     } else {
-      document.body.style.zoom = '100%';
+      document.body.style.zoom = "100%";
     }
   };
 
   useEffect(() => {
     setZoomLevel();
-    window.addEventListener('resize', setZoomLevel);
+    window.addEventListener("resize", setZoomLevel);
     return () => {
-      window.removeEventListener('resize', setZoomLevel);
+      window.removeEventListener("resize", setZoomLevel);
     };
   }, []);
 
@@ -56,7 +56,7 @@ const App = () => {
         case "/about-us":
           setFooterText("Go Back to Home");
           break;
-        
+
         case "/order-product":
         case "/product/:route":
           setFooterText("Go Back to Home");
@@ -80,7 +80,7 @@ const App = () => {
           <Route path="/" element={<Home />} />
           {/* About Us Route */}
           <Route path="/about-us" element={<AboutUs />} />
-          
+
           {/* Product Page */}
           <Route path="/order-product" element={<ProductPage />} />
           {/* Product page for specific route */}
@@ -122,9 +122,8 @@ const App = () => {
             path="/product/invitation-card"
             element={<InvitationCardPage />}
           />
-   
-
-
+          {/* Item page for id card */}
+          <Route path="/product/id-cards" element={<IDCardPage />} />
         </Routes>
       </div>
       {/* Updated Footer to use dynamic text */}
