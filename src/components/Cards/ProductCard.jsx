@@ -17,7 +17,7 @@ const ProductCard = ({ id, title, subTitle, price, image, width, height,minQuant
   const navigate = useNavigate();
 
   const onBuy = () => {
-    console.log("Navigating with minQuantity:", minQuantity);
+    // console.log("Navigating with minQuantity:", minQuantity);
     navigate("/order-product", {
       state: {
         title,

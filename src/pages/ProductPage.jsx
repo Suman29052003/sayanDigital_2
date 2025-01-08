@@ -14,8 +14,8 @@ const ProductPage = () => {
     window.scrollTo(0, 0);
   }, []);
 
-  console.log("Min Quantity:", minQuantity);
-  console.log("Received minQuantity:", minQuantity);
+  // console.log("Min Quantity:", minQuantity);
+  // console.log("Received minQuantity:", minQuantity);
 
   return (
     <div className="w-full max-h-screen flex flex-col items-center">
