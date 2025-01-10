@@ -18,7 +18,7 @@ const ProductPage = () => {
   // console.log("Received minQuantity:", minQuantity);
 
   return (
-    <div className="w-full max-h-screen flex flex-col items-center">
+    <div className="w-full min-h-screen flex flex-col items-center">
       <ProductInfo
         title={title}
         subTitle={subTitle}
